@@ -94,22 +94,22 @@ puts "ok 16"
 puts "not ok 17"
 
 # failed
-(
--
-1
-)
-puts "ok 18"
+#(
+#-
+#1
+#)
+puts "not ok 18"
 
 # failed
-(
--
-  1
-)
-puts "ok 19"
+#(
+#-
+#  1
+#)
+puts "not ok 19"
 
 # failed
-( - 1 )
-puts "ok 20"
+#( - 1 )
+puts "not ok 20"
 
 (1.0)
 puts "ok 21"
@@ -118,22 +118,22 @@ puts "ok 21"
 puts "ok 22"
 
 # failed
-(%W(a b c))
-puts "ok 23"
+#(%W(a b c))
+puts "not ok 23"
 
 ({})
 puts "ok 24"
 
 # failed
-(//)
-puts "ok 25"
+#(//)
+puts "not ok 25"
 
 ("")
 puts "ok 26"
 
 # failed
-(%Q())
-puts "ok 27"
+#(%Q())
+puts "not ok 27"
 
 (true)
 puts "ok 28"

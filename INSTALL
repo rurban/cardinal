@@ -13,7 +13,18 @@ make install
 
 git clone git://github.com/parrot/cardinal.git
 
-4)  Install Cardinal
+4)  Build Cardinal
 
 cd cardinal
-parrot setup.pir
+winxed setup.winxed build
+
+5)  Test Cardinal
+
+winxed setup.winxed test
+
+or just:
+find t -name \*.t --exec parrot cardinal.pbc '{}' \;
+
+5)  Install Cardinal
+
+winxed setup.winxed install
